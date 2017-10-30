@@ -20,7 +20,7 @@ sudo apt-get install -y atom git git-cola mc vim vlc google-chrome-stable zsh cu
 
 # oh my zsh config
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-wget https://github.com/kmuszyn/utils/blob/master/bira-mod.zsh-theme
+wget https://raw.githubusercontent.com/kmuszyn/utils/master/bira-mod.zsh-theme
 mv bira-mod.zsh-theme ~/.oh-my-zsh/themes/
 sed -i -e 's/robbyrussell/bira-mod/g' ~/.zshrc
 
