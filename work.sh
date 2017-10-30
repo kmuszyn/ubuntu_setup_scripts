@@ -23,6 +23,10 @@ sudo add-apt-repository \
 sudo apt-get update
 sudo apt-get install -y docker-ce network-manager-openvpn-gnome
 
+# docker without sudo
+sudo groupadd docker
+sudo usermod -aG docker $USER
+
 # for pycharm etc.
 mkdir ~/bin
 
